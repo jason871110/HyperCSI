@@ -9,7 +9,7 @@
 %  time is the computation time (in secs).
 %========================================================================
 
-function [A_est, S_est, time] = HyperCSI_10_v3(X,N)
+function [A_est, S_est, time] = HyperCSI(X,N)
 
 t0 = clock;
 M=224;
